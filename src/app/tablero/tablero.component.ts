@@ -11,7 +11,7 @@ export class TableroComponent implements OnInit {
   jugador1 : Jugador = {
     id : 1,
     color : "white",
-    nombre : "Simar"
+    nombre : "Jugador"
   };
   jugador2 : Jugador = {
     id : 2,
