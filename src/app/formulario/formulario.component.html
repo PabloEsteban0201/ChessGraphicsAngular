@@ -1,0 +1,14 @@
+Jugador 1 <input type="text" #tbJ1 id="tbJ1">
+<br>
+Jugador 2 <input type="text" #tbJ2 id="tbJ2">
+<br>
+<p>
+    <button type="submit" (click)="changeLabelName(lblj1.id, lblj2.id, tbJ1.value, tbJ2.value)" id="bt">
+        Registrar
+    </button>
+</p>
+
+<ng-container>
+    <p>Jugador 1: <label #lblj1 id="lblj1"></label> </p>
+    <p>Jugador 2: <label #lblj2 id="lblj2"></label></p>
+</ng-container>
